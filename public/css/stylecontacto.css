@@ -1,0 +1,77 @@
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #120127b4, #b08ee7c4); 
+    color: #333;
+    padding-bottom: 50px; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5em;
+    color: #222;
+}
+
+h2 {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    color: #555;
+}
+
+#contacto {
+    background-color: #02271c70;
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 2px 10px rgb(253, 251, 251);
+    border-radius: 8px;
+}
+
+#contacto h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e2ecea;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #01110f;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1a5952;
+}

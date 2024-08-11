@@ -1,0 +1,89 @@
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #38092c, #e98fc1f5); 
+    color: #e4dede
+}
+
+header {
+    background-color: #38092c21;
+    color: #ccbfc8;
+    padding: 70px 0;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none; /* Elimina los puntos de lista */
+    padding: 0; /* Elimina el padding por defecto del ul */
+    margin: 0; /* Elimina el margen por defecto del ul */
+}
+
+header nav ul li {
+    display: inline-block; /* Muestra los elementos en línea */
+    margin: 0 15px; /* Añade espacio entre los enlaces */
+}
+
+header nav ul li a {
+    color: #ccbfc8; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 1em; /* Ajusta el tamaño del texto del enlace */
+}
+/*link de redes*/
+footer {
+    background-color: #38092c21; /* Cambia este valor al color deseado para el fondo */
+    color: #ffffff; /* Cambia este valor al color deseado para el texto */
+    padding: 20px; /* Ajusta el espacio interior si es necesario */
+    text-align: center; /* Centra el texto */
+}
+
+footer a {
+    color: #ffffff; /* Cambia este valor al color deseado para los enlaces */
+    text-decoration: none; /* Opcional: Elimina el subrayado de los enlaces */
+}
+
+footer a:hover {
+    color: #cccccc; /* Cambia este valor al color deseado para el enlace cuando se pasa el ratón por encima */
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    flex: 1 1 200px;
+    background-color:#8fc2e63a;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease;
+}
+
+.producto a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+

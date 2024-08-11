@@ -1,0 +1,121 @@
+
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e6c8e6, #415767); 
+    color: #000000
+}
+
+header {
+    background-color: #0547471c;
+    color: #000000;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+}
+
+header nav ul li {
+    display: inline-block; 
+    margin: 0 15px; 
+}
+
+header nav ul li a {
+    color: #dd85c3;
+    text-decoration: none; 
+    font-size: 1em; 
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    flex: 1 1 200px;
+    background-color:#8fc2e63a;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease;
+}
+
+.producto a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para celular */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+    .navbar-nav {
+        flex-direction: column; 
+    }
+}
+
+/* Estilos para tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+        padding: 20px;
+    }
+    header h1 {
+        font-size: 2.5em;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }     
+}
+
+/* Estilos para computadoras */
+@media screen and (min-width: 1025px) {
+    body {
+        font-size: 18px;
+        padding: 30px;
+    }
+    header h1 {
+        font-size: 3em;
+    }
+    .navbar-nav {
+        flex-direction: row; 
+    }
+    
+}
+
+
+
+
+
