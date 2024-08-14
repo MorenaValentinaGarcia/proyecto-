@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison de Mode</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Maison de Mode</h1> 
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="public/views/Hombres.html">Hombres</a></li>
+                <li class="nav-item"><a class="nav-link" href="public/views/Mujeres.html">Mujeres</a></li>
+                <li class="nav-item"><a class="nav-link" href="public/views/Accesorios.html">Accesorios</a></li>
+                <li class="nav-item"><a class="nav-link" href="public/views/Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Sobrenosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una empresa dedicada a ofrecer la mejor ropa para hombres, mujeres y accesorios. Nuestra misión es brindar productos de alta calidad que se adapten a tu estilo y personalidad. Descubre nuestras colecciones y renueva tu guardarropa con nosotros.</p>
+    </section>
+    
+    <section class="productos">
+        <div class="producto">
+            <a href="detalle-producto1.html">
+                <img src="public/img/producto destacado.jpg" alt="Producto 1">
+            </a>
+        </div>
+        <div class="producto">
+            <a href="detalle-producto2.html">
+                <img src="public/img/producto destacado 2.jfif" alt="Producto 2">
+            </a>
+        </div>
+        <div class="producto">
+            <a href="detalle-producto3.html">
+                <img src="public/img/producto destacado 3.jfif" alt="Producto 3">
+            </a>
+        </div>
+        <div class="producto">
+            <a href="detalle-producto4.html">
+                <img src="public/img/producto destacado 4.jfif" alt="Producto 4">
+            </a>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Suscríbete a Nuestro Boletín</h2>
+        <p>Recibe las últimas noticias y ofertas exclusivas directamente en tu bandeja de entrada.</p>
+        <form action="subscribe.php" method="post">
+            <input type="email" name="email" placeholder="MainsodeMode@gmail.com" required>
+            <button type="submit">Suscribirse</button>
+        </form>
+    </section>
+</body>
+</html>
